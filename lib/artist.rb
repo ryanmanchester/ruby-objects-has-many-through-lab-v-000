@@ -16,7 +16,7 @@ def add_song(song)
   song.artist = self
 end
 
-def genre
+def genres
   songs.collect {|song| song.genre}
 end
 
